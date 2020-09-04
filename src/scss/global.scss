@@ -47,7 +47,7 @@ img {
 }
 
 :focus {
-  outline: 1px solid var(--color-theme-primary-glare);
+  outline: 1px dashed var(--color-theme-primary-glare);
   outline-offset: 0.25rem;
 }
 
@@ -65,6 +65,7 @@ img {
 @import 'components/form';
 @import 'components/heading-permalink';
 @import 'components/intro';
+@import 'components/hero';
 @import 'components/nav';
 @import 'components/pagination';
 @import 'components/post';

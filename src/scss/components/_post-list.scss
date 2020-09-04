@@ -1,6 +1,7 @@
 .post-list {
   &__item {
     --flow-space: #{get-size(700)};
+    display: flex;
   }
 
   &__link {
@@ -13,5 +14,38 @@
     &:hover {
       text-decoration: underline;
     }
+  }
+
+  &__item-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 5rem;
+  }
+
+  &__item-img {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .post-list {
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  &__item-txt {
+    padding-right: 0;
+    padding-bottom: 3rem;
+  }
+  &__item-img {
+    width: 100%;
+  }
   }
 }

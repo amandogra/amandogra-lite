@@ -23,8 +23,9 @@
 
     a {
       color: currentColor;
-
-      @include apply-utility('weight', 'mid');
+      font-size: 0.82rem;
+      // @include apply-utility('weight', 'mid');
+      text-transform: uppercase;
 
       &:not(:hover) {
         text-decoration: none;

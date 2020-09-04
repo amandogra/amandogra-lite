@@ -1,0 +1,10 @@
+.hero {
+  background: var(--color-theme-highlight-block);
+  padding-top: 10rem;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding-top: 0;
+  }
+}

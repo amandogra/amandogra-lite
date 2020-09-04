@@ -5,6 +5,8 @@ tags:
   - demo-content
   - blog
   - media
+cover: "/images/demo-image-1.jpg"
+excerpt: "A post to demonstrate how a blog post looks on Hylia. Content is all set in the “Body” field as markdown and Eleventy transforms it into a proper HTML post."
 ---
 A post to demonstrate how a blog post looks on Hylia. Content is all set in the “Body” field as markdown and Eleventy transforms it into a proper HTML post. You can also edit the markdown file directly if you prefer not to use the CMS.
 

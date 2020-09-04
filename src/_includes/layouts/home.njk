@@ -2,12 +2,13 @@
 
 {# Intro content #}
 {% set introHeading = title %}
+{% set heroImage = heroImg %}
 {% set introSummary %}
   {{ content | safe }}
 {% endset %}
 
 {# Post list content #}
-{% set postListHeading = postsHeading %}
+{# set postListHeading = postsHeading #}
 {% set postListItems = collections.postFeed %}
 
 {# Archive link #}
@@ -17,8 +18,8 @@
 {% endif %}
 
 {% block content %}
-  <main id="main-content" tabindex="-1">
-    {% include "partials/components/intro.njk" %}
+  <main id="main-content" class="[ home ]" tabindex="-1">
+    {% include "partials/components/hero.njk" %}
     {% include "partials/components/post-list.njk" %}
     {% include "partials/components/pagination.njk" %}
   </main>
