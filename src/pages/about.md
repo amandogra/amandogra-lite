@@ -1,6 +1,6 @@
 ---
-title: 'About Aman Dogra'
-permalink: '/about/index.html'
+title: About Aman Dogra
+permalink: /about/index.html
 ---
 
-About Aman Dogra
+Aman Dogra is an artist, a software developer and above all a human being.
