@@ -1,5 +1,7 @@
 .pagination {
   flex-wrap: wrap;
+  padding: 2rem 0;
+  border-top: 1px solid var(--color-stroke);
 
   a {
     color: var(--color-theme-primary);

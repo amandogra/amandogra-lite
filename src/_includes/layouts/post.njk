@@ -11,6 +11,16 @@
 </p>
 {% endset %}
 
+{# Next and Previous Links #}
+{% if collections.posts.length > 1 %} 
+  {% set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+  {% set nextPost = collections.posts | getNextCollectionItem(page) %}
+  {% set paginationNextText = nextPost.data.title %}
+  {% set paginationNextUrl = nextPost.url %}
+  {% set paginationPrevText = previousPost.data.title %}
+  {% set paginationPrevUrl = previousPost.url %}
+{% endif %}
+
 {% block content %}
   <main id="main-content" tabindex="-1">
     <article class="[ post ] [ h-entry ]">
@@ -25,6 +35,7 @@
         </aside>
       {% endif %}
     </article>
+    {% include "partials/components/pagination.njk" %}
   </main>
 {% endblock %}
 

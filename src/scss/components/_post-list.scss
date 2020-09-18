@@ -2,6 +2,9 @@
   &__item {
     --flow-space: #{get-size(700)};
     display: flex;
+    justify-content: left;
+    align-content: center;
+    height: 100vh;
   }
 
   &__link {

@@ -59,6 +59,9 @@ module.exports = function(config) {
 
   // 404
   config.setBrowserSyncConfig({
+    ui: {
+      port: 8079
+    },
     callbacks: {
       ready: function(err, browserSync) {
         const content_404 = fs.readFileSync('dist/404.html');

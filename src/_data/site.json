@@ -7,6 +7,6 @@
   "authorHandle": "@amandogra",
   "authorName": "Aman Dogra",
   "enableThirdPartyComments": false,
-  "maxPostsPerPage": 5,
+  "maxPostsPerPage": 3,
   "faviconPath": "/images/favicon.png"
 }

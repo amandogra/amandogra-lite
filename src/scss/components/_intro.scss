@@ -14,11 +14,12 @@
   }
 
   &__heading {
-    max-width: 40ex;
+    // max-width: 40ex;
     color: var(--color-theme-feature-text);
+    max-width: 100%;
 
     &--compact {
-      max-width: 20ex;
+      // max-width: 20ex;
     }
   }
 }
