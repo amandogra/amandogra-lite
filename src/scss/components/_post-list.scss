@@ -34,6 +34,14 @@
   }
 }
 
+.archive {
+  .post-list {
+    &__item {
+      height: auto;
+    }
+  }
+}
+
 
 @media (max-width: 767px) {
   .post-list {
