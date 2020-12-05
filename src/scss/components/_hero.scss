@@ -1,10 +1,30 @@
+
 .hero {
   background: var(--color-theme-highlight-block);
-  padding-top: 10rem;
-}
+  padding-top: 0;
+  &__item {
+    --flow-space: #{get-size(700)};
+    display: flex;
+  }
 
-@media (min-width: 768px) {
+  &__item-txt {
+    justify-self: center;
+    align-self: center;
+  }
+
+  &__item-img {
+    width: 100%;
+    justify-self: center;
+    align-self: center;
+    padding-top:2rem;
+    max-width: 40rem;
+  }
+}
+@media (max-width: 768px) {
   .hero {
-    padding-top: 0;
+    &__item {
+      display: block;
+      padding-top: 10rem;
+    }
   }
 }

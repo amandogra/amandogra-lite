@@ -3,7 +3,7 @@
   // background: var(--color-bg-glare);
   color: var(--color-text);
   // border-top: 1px solid var(--color-stroke);
-  text-align: center;
+  // text-align: center;
   a {
     color: currentColor;
 
@@ -15,5 +15,16 @@
   &__credit {
     font-size: 0.8rem;
     color: var(--color-secondary)
+  }
+  .wrapper {
+    display: flex;
+  }
+}
+
+@media (max-width: 767px) {
+  .site-foot {
+    .wrapper {
+      display: block;
+    }
   }
 }

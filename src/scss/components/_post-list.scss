@@ -1,10 +1,7 @@
 .post-list {
   &__item {
     --flow-space: #{get-size(700)};
-    display: flex;
-    justify-content: left;
-    align-content: center;
-    height: 100vh;
+    display: block;
   }
 
   &__link {
@@ -20,17 +17,12 @@
   }
 
   &__item-txt {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-right: 5rem;
+    padding-bottom: 5rem;
   }
 
   &__item-img {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding-top:2rem;
   }
 }
 
@@ -47,16 +39,17 @@
   .post-list {
 
   &__item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: block;
+    height: auto;
   }
   &__item-txt {
     padding-right: 0;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
   }
   &__item-img {
     width: 100%;
+    max-width: 30rem;
+    text-align: center;
   }
   }
 }
