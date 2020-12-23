@@ -2,6 +2,8 @@
 .hero {
   background: var(--color-theme-highlight-block);
   padding-top: 0;
+  display: flex;
+  height: calc(100vh - 100px);
   &__item {
     --flow-space: #{get-size(700)};
     display: flex;
@@ -22,6 +24,8 @@
 }
 @media (max-width: 768px) {
   .hero {
+    display: block;
+    height: auto;
     &__item {
       display: block;
       padding-top: 10rem;
