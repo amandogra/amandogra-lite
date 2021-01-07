@@ -1,6 +1,6 @@
 {
   "name": "amandogra-lite",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "description": "A corner of the web belonging to Aman Dogra",
   "main": "index.js",
   "dependencies": {
