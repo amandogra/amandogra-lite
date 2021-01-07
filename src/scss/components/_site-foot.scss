@@ -1,6 +1,6 @@
 .site-foot {
   // Reverse whatever the theme colors are
-  // background: var(--color-bg-glare);
+  background: var(--color-theme-highlight-block);
   color: var(--color-text);
   // border-top: 1px solid var(--color-stroke);
   // text-align: center;
@@ -14,7 +14,6 @@
 
   &__credit {
     font-size: 0.8rem;
-    color: var(--color-secondary)
   }
   .wrapper {
     display: flex;
