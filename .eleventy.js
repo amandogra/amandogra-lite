@@ -47,6 +47,12 @@ module.exports = function(config) {
     ].reverse();
   });
 
+  config.addCollection('sketches', collection => {
+    return [
+      ...collection.getFilteredByGlob('./src/sketches/*.md').filter(livePosts)
+    ].reverse();
+  });
+
   config.addCollection('postFeed', collection => {
     return [...collection.getFilteredByGlob('./src/posts/*.md').filter(livePosts)]
       .reverse()

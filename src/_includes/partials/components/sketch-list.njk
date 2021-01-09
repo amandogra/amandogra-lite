@@ -11,9 +11,13 @@
                 <h2 class="[ intro__heading intro__heading--compact ] [ leading-tight ] [ p-name ]">
                   <a href="{{ item.url }}" class="post-list__link" rel="bookmark">{{ item.data.title }}</a>
                 </h2>
-                <p class="">
-                {{ item.data.excerpt }}
-                </p>
+                {% if item.data.cover %}
+               <div class="post-list__item-img">
+                 <a href="{{ item.url }}">
+                  <img src="{{ item.data.cover }}" alt="" />
+                </a>
+              </div>
+                {% endif %}
               </div>
             </li>
           {% endif %}

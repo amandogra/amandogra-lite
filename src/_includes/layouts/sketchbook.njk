@@ -5,12 +5,12 @@
 {% set introSummary %}{{ content | safe }}{% endset %}
 
 {# Post list content #}
-{% set postListHeading = 'Blog' %}
-{% set postListItems = collections.posts %}
+{% set postListHeading = 'Sketchbook' %}
+{% set postListItems = collections.sketches %}
 
 {% block content %}
   <main id="main-content"  class="archive" tabindex="-1">
     {% include "partials/components/intro.njk" %}
-    {% include "partials/components/post-list.njk" %}
+    {% include "partials/components/sketch-list.njk" %}
   </main>
 {% endblock %}

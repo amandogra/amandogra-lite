@@ -1,8 +1,13 @@
 {
   "items": [
     {
-      "text": "Blog",
-      "url": "/archive",
+      "text": "Sketchbook",
+      "url": "/sketchbook",
+      "external": false
+    },
+    {
+      "text": "Notebook",
+      "url": "/notebook",
       "external": false
     },
     {
