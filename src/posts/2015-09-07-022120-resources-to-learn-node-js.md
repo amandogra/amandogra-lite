@@ -1,7 +1,7 @@
 ---
 title: Resources to learn Node JS
 cover: "/images/2015-09-07-022120.png"
-date: "2015-09-06"
+date: "2099-09-06"
 tags:
     - developer
     - nodejs

@@ -1,7 +1,7 @@
 ---
 title: How to host MEAN stack app on Digital Ocean
 category: "developer"
-date: "2015-10-04"
+date: "2099-10-04"
 tags:
     - angular
     - developer

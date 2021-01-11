@@ -1,7 +1,7 @@
 ---
 title: 'Simple script to create a new post'
 category: "developer"
-date: "2018-04-29"
+date: "2099-04-29"
 ---
 
 A simple nodejs script to create a new post in GatsbyJS. This script simply creates a new markdown file with basic front-matter data in appropriate directory.
