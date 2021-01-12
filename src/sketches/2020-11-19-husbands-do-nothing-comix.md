@@ -2,7 +2,7 @@
 title: Husbands do nothing
 date: 2020-11-19
 slug: husbands-do-nothing
-cover: https://res.cloudinary.com/dlfrqtt95/image/upload/c_scale,w_960/v1610396030/126344047_980955418982788_4215004197333625463_n.jpg_pcm12r.jpg
+cover: https://res.cloudinary.com/dlfrqtt95/image/upload/c_scale,w_960/v1610396041/126026709_645828436084731_8373480254513916319_n.jpg_v52hjj.jpg
 tags:
   - sketch
   - complete
