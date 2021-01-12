@@ -2,6 +2,7 @@
   &__item {
     --flow-space: #{get-size(700)};
     display: block;
+    border-bottom: 1px solid var(--color-stroke)
   }
 
   &__link {
